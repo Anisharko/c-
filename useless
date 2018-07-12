@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+int fun(int=3,int=5);
+
+int main()
+{
+    cout<<fun(5);
+    //cout<<"Hello World";
+
+    return 0;
+}
+int fun(int x,int y){return(x+y);}
